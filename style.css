@@ -1,3 +1,96 @@
-h1 {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1f20; 
+	color: lightgray;
+    font-size: 15pt;
+    line-height: 1.5;
+}
+
+
+.joel {
+    display: flex;
+    justify-content: center;
+    color: #ff9d00;
+    
+}
+
+.about {
+    margin: 20px;
+    color:#ff9d00;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
     text-align: center;
+    width: 80%
+}
+.width-50 {
+    width: 50%;
+}
+
+.orange {
+color: #ff9d00
+}
+
+.hund {
+    color: #ff9d00;
+    text-align: center;
+}
+
+
+.bild {
+    border-radius: 20px;
+    width: 40%;
+}
+
+.nat {
+    font-size: 300px;
+}
+
+.bla {
+    width: 100%;
+}
+
+
+.Tabelle{
+    color:#fd9c00;
+}
+
+.list {
+text-align:left;
+}
+
+.table-bordered {
+    border-collapse: collapse;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid lightgray;
+    padding: 5px;
+}
+.table-bordered th {
+    background-color: #444;
+}
+
+.ball{
+    color: orange;
+}
+
+.baum{
+    color: #ffffff89;
+}
+
+body {
+    color: #f8f8f8;
+   }
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #fd9c00;
 }
